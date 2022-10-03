@@ -5,7 +5,8 @@ import { Book } from '../interface/Book';
   providedIn: 'root'
 })
 export class CartService {
-  cart: Book[] = [];
+  
+  cart: Array<Book> = [];
 
   constructor() { }
 
